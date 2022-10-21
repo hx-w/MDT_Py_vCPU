@@ -70,6 +70,7 @@ def to_html(
     default_height="100%",
     validate=True,
     compress=True,
+    **kwargs,
 ):
     """
     Convert a figure to an HTML string representation.
